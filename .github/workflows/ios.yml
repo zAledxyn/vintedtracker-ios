@@ -30,7 +30,7 @@ jobs:
 
     # 5️⃣ Fertige IPA als Artefakt hochladen
     - name: Upload IPA
-      uses: actions/upload-artifact@v2    # ← v2 statt v3
-      with:
-        name: vintedtracker-ipa
-        path: bin/*.ipa
+  uses: actions/upload-artifact@v4
+  with:
+    name: vintedtracker-ipa
+    path: bin/*.ipa
