@@ -2,7 +2,9 @@
 title = VintedTracker
 package.name = vintedtracker
 package.domain = org.alex
-icon.filename = icon.png          # dein PNG-Icon im Repo
+icon.filename = icon.png
+source.dir = .          # <— hinzugefügt
+version = 0.1           # <— hinzugefügt
 source.include_exts = py,png,kv,csv,txt
 requirements = python3,kivy,flask,pandas,plotly,customtkinter
 orientation = portrait
