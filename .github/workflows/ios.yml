@@ -20,7 +20,7 @@ jobs:
         pip install "pbxproj<4"
 
     - name: Build IPA
-      run: buildozer ios debug           # erzeugt bin/*.ipa
+      run: buildozer ios debug
 
     - name: Upload IPA
       uses: actions/upload-artifact@v4
