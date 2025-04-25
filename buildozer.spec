@@ -16,3 +16,6 @@ ios.skip_build_recipes = ios_deploy
 
 [buildozer]
 log_level = 2
+
+[ios]
+skip_build_recipes = ios_deploy
