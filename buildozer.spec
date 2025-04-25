@@ -5,7 +5,7 @@ package.domain = org.alex
 source.dir = .
 version = 0.1
 
-ios.codesign.allowed = 0        # unsigniertes IPA
+ios.codesign.allowed = 0
 ios.skip_build_recipes = ios_deploy
 
 [buildozer]
