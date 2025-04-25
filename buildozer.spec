@@ -2,20 +2,16 @@
 title = VintedTracker
 package.name = vintedtracker
 package.domain = org.alex
-icon.filename = icon.png
 source.dir = .
 version = 0.1
-source.include_exts = py,png,kv,csv,txt
-requirements = python3,kivy,kivymd,flask,pandas,plotly
+requirements = python3,kivy,kivymd,flask==2.2.3,click==8.1.3,pandas,numpy,plotly,customtkinter,tkhtmlview
 orientation = portrait
 fullscreen = 1
-ios.kivy_ios_url = https://github.com/kivy/kivy-ios
-ios.deployment_target = 13.0
-ios.codesign.allowed = 0
-ios.skip_build_recipes = ios_deploy
+
+[ios]
+kivy_ios_url = https://github.com/kivy/kivy-ios
+deployment_target = 13.0
+codesign.allowed = false     # unsigniert für TrollStore
 
 [buildozer]
 log_level = 2
-
-[ios]
-skip_build_recipes = ios_deploy
