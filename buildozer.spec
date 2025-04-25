@@ -4,7 +4,8 @@ package.name = vintedtracker
 package.domain = org.alex
 source.dir = .
 version = 0.1
-ios.codesign.allowed = 0
+
+ios.codesign.allowed = 0        # unsigniertes IPA
 ios.skip_build_recipes = ios_deploy
 
 [buildozer]
