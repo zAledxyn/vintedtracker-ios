@@ -12,6 +12,7 @@ fullscreen = 1
 ios.kivy_ios_url = https://github.com/kivy/kivy-ios
 ios.deployment_target = 13.0
 ios.codesign.allowed = 0
+ios.skip_build_recipes = ios_deploy
 
 [buildozer]
 log_level = 2
